@@ -29,4 +29,8 @@ class Artist
     # links the Song to the Artist class
     @songs << song
   end
+
+  def self.song_count
+
+  end
 end
