@@ -6,7 +6,11 @@ class Author
     @posts = Array.new
   end
 
-  def posts 
+  def posts
     @posts
+  end
+
+  def add_post(post)
+    
   end
 end
