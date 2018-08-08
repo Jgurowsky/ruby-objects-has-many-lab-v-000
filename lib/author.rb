@@ -20,4 +20,8 @@ class Author
     post.author = self
     @posts << post
   end
+
+  def self.post_count
+    Post.all.count
+  end
 end
