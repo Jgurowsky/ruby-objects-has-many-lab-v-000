@@ -3,5 +3,10 @@ class Author
 
   def initialize(name)
     @name = name
+    @posts = Array.new
+  end
+
+  def posts 
+    @posts
   end
 end
