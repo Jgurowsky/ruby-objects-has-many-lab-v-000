@@ -22,8 +22,11 @@ class Artist
   end
 
   def add_song_by_name(name)
+    # creates a new class instance of Song
     song = Song.new(name)
+    # Links the Artist to the Song class
     song.artist = self
+    # links the Song to the Artist class
     @songs << song
   end
 end
