@@ -1,7 +1,7 @@
 require 'pry'
 
 class Post
-  attr_accessor :title
+  attr_accessor :title, :author
 
   @@all = Array.new
 
@@ -12,10 +12,5 @@ class Post
 
   def self.all
     @@all
-  end
-
-  def author
-    binding.pry
-    post.author.name
   end
 end
